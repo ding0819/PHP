@@ -24,7 +24,7 @@
     <tr><th>個性<th\><td>活潑、外向、熱情、熱於助人<td\><tr\>
     </table><br/>
 
-    <img src="..img/me2.jpg" width="280" height="350">
+    <img src="../PHPimg/me2.jpg" width="280" height="350">
     
     
 </body>

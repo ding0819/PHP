@@ -28,7 +28,7 @@
     }
     else
     {
-        header("Location:error.php");
+        header("Location:index.php");
     }
 ?>
 </html>

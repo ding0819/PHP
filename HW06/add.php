@@ -7,4 +7,4 @@
     <input type="submit" value="送出">
 </form>
 
-<a href='index.php'>回上頁</a>
+<a href='index.php'>回首頁</a>

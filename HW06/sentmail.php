@@ -6,14 +6,14 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
 
 //接收mail.php傳過來的變數
-$subject = $_POST["subject"]; //subject:信件標題
-$content = $_POST["content"]; //content:信件內文
-$content = nl2br($content); //nl2br:斷行
+$subject = $_POST["subject"];
+$content = $_POST["content"]; 
+$content = nl2br($content);
 
 //連接資料庫
 $db = @mysqli_connect('localhost', 'root', '', 'mail');

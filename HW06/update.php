@@ -25,7 +25,7 @@ mysqli_free_result($result);
 mysqli_close($db);
 ?>
 
-<form action="updatedb.php" method="post">
+<form action="updatecheck.php" method="post">
     第<?php echo $no ?>筆資料<br>
     <input type="hidden" name="No" value="<?php echo $no ?>">
     姓名:<input type="text" name="Name" value="<?php echo $name ?>"><br>

@@ -19,5 +19,5 @@
     }
 
     echo "<br><a href='upload.php'>回上一頁</a><br>";
-    echo "<a href='login.php'>回首頁</a>";
+    echo "<a href='HW05login.php'>回首頁</a>";
 ?>
